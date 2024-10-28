@@ -8,7 +8,10 @@
 </head>
 <body>
   <h1 class="text = 3x1 text-red-600 font-bold bg-red-100 items-center p-4 flex justify-center">
-    Hello world!
+    Hello. Im {{ $name }}!!!
   </h1>
+  <p class= "text-2xl p-4">
+    I live in {{ $address}}, and my email is {{ $email }}
+  </p>
 </body>
 </html>

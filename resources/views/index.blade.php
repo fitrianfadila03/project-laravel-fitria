@@ -12,10 +12,11 @@
     <div class="container mx-auto flex justify-between items-center">
       <h1 class="text-white text-lg font-semibold">Toko Baju Wanita</h1>
       <ul class="flex space-x-6">
-        <li><a href="Home" class="text-white">Home</a></li>
-        <li><a href="#" class="text-white">Produk</a></li>
-        <li><a href="#" class="text-white">Tentang Kami</a></li>
-        <li><a href="#" class="text-white">Kontak</a></li>
+        <li><a href="#" class="text-white">Home</a></li>
+        <li><a href="{{ route('login') }}" class="text-white">Login</a></li>
+        <li><a href="{{ route('about') }}" class="text-white">About</a></li>
+        <li><a href="#" class="text-white">Contact</a></li>
+        
       </ul>
     </div>
   </nav>
